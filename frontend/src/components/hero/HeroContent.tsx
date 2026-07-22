@@ -60,7 +60,7 @@ export default function HeroContent() {
           "
         >
           Join this weekend
-          <span className="ml-2 inline-block transition-transform duration-300 group-hover:translate-x-1">
+          <span className="ml-2 inline-block transition-transform duration-300 group-hover:translate-x-2">
             →
           </span>
         </button>
