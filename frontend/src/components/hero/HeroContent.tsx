@@ -19,8 +19,9 @@ export default function HeroContent() {
       <div className="absolute inset-0 bg-linear-to-t from-black via-black/40 to-black/10" />
       <div className="absolute inset-0 bg-black/20" />
 
+      
       {/* Brand */}
-      <div className="absolute inset-0 flex flex-col items-center justify-center -translate-y-32 select-none">
+      <div className="absolute inset-0 flex flex-col items-center justify-center -translate-y-28 select-none">
 
         <div className="font-bebas text-[18rem] md:text-[22rem] tracking-tighter leading-[0.8] text-white/95 text-center">
             HoD
@@ -32,7 +33,7 @@ export default function HeroContent() {
       </div>
 
       {/* Bottom CTA */}
-      <div className="absolute inset-x-0 bottom-24 flex flex-col items-center text-center">
+      <div className="absolute inset-x-0 bottom-18 flex flex-col items-center text-center">
 
         <div className="mb-4 font-bebas text-sm uppercase tracking-[0.5em] text-neutral-300 md-10">
           YOUR NEXT TRAINING PARTNER IS PROBABLY A STRANGER
