@@ -46,7 +46,7 @@ export default function HeroContent() {
             border border-white/20
             bg-white/10
             backdrop-blur-md
-            px-8 py-4
+            px-12 py-4
             font-inter
             text-xl
             font-bold
