@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
@@ -9,65 +9,63 @@
 }
 
 @theme {
-    /* ---------- COLORS ---------- */
 
-    --color-bg: #080808;
+  /* ---------- COLORS ---------- */
 
-    --color-surface: #101010;
+  --color-bg: #050505;
+  --color-surface: #0B0B0B;
+  --color-card: #111111;
 
-    --color-card: #181818;
+  --color-border: rgba(255,255,255,.08);
 
-    --color-border: rgba(255,255,255,.06);
+  --color-text: #F8FAFC;
+  --color-text-soft: #CBD5E1;
+  --color-text-muted: #7C8798;
 
-    --color-text: #F5F5F3;
+  /* HOD Blue */
 
-    --color-text-soft: #D6D3D1;
+  --color-primary: #0D6EFD;
+  --color-primary-hover: #2563EB;
+  --color-primary-dark: #0B4FC2;
+  --color-primary-soft: #4DA3FF;
 
-    --color-text-muted: #8A8A8A;
+  /* Accent */
 
-    --color-primary: #BE1F31;
+  --color-white-glass: rgba(255,255,255,.08);
+  --color-white-glass-hover: rgba(255,255,255,.14);
 
-    --color-primary-hover: #9F1726;
+  /* Semantic */
 
-    --color-primary-dark: #6E0F1A;
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
 
-    --color-cream: #FFF9ED;
+  /* ---------- TYPOGRAPHY ---------- */
 
-    --color-gold: #B8954C;
+  --font-bebas: "Bebas Neue";
+  --font-inter: "Inter";
+  --font-anton: "Anton";
 
-    --color-gold-soft: #D8B979;
+  /* ---------- SPACING ---------- */
 
-    /* Semantic Colors */
-    --color-success: #2ecc71;
-    --color-warning: #fbbf24;
-    --color-error: #ef4444;
-
-    /* ---------- TYPOGRAPHY ---------- */
-
-    --font-bebas: "Bebas Neue";
-    --font-inter: "Inter";
-    --font-anton: "Anton"
-
-    /* ---------- SPACING ---------- */
-
-    --container-width: 1280px;
-
-    --section-padding: clamp(6rem,10vw,10rem);
-
-    --navbar-height: 5rem;
-
+  --container-width: 1280px;
+  --section-padding: clamp(6rem,10vw,10rem);
+  --navbar-height: 5rem;
 }
 
-html {
-  scroll-behavior: smooth;
+html{
+  scroll-behavior:smooth;
 }
 
-body {
-  margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
-  background: var(--color-bg);
-  color: var(--color-text);
-  font-family: var(--font-body);
-  overflow-x: hidden;
+body{
+  margin:0;
+  min-width:320px;
+  min-height:100vh;
+
+  background:var(--color-bg);
+  color:var(--color-text);
+
+  font-family:var(--font-inter);
+
+  overflow-x:hidden;
 }
