@@ -6,7 +6,7 @@ export default function HeroContent() {
 
       {/* Background Video */}
       <video
-        className="absolute inset-0 h-full w-full object-cover brightness-[0.4] contrast-[1.3] saturate-50"
+        className="absolute inset-0 h-full w-full object-cover brightness-[0.5] contrast-[1.3] saturate-50"
         autoPlay
         muted
         loop
@@ -26,7 +26,7 @@ export default function HeroContent() {
             <span className="text-white">H</span>
             <span className="text-primary">O</span>
             <span className="text-white">D</span>
-            <p className="font-inter uppercase tracking-[0.85em] text-xs text-slate-400 md:text-sm -mt-6">
+            <p className="font-inter uppercase tracking-[0.85em] text-xs text-white/55 md:text-sm -mt-6">
             HOUSE OF DISCIPLINE
             </p>
         </div>
