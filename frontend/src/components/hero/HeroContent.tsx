@@ -1,4 +1,4 @@
-import HeroVid from "@/assets/hod-bg.mp4";
+import HeroVid from "@/assets/hod-bg3.mp4";
 
 export default function HeroContent() {
   return (
@@ -22,7 +22,7 @@ export default function HeroContent() {
       
       {/* Brand */}
       <div className="absolute inset-0 flex flex-col items-center justify-center -translate-y-28 select-none">
-        <div className="font-bebas text-[18rem] md:text-[22rem] tracking-tighter leading-[0.8] text-white/95 text-center">
+        <div className="font-bebas text-[17rem] md:text-[22rem] tracking-tighter leading-[0.8] text-white/95 text-center">
             <span className="text-white">H</span>
             <span className="text-primary">O</span>
             <span className="text-white">D</span>
